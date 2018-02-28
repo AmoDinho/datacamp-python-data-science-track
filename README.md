@@ -4,7 +4,7 @@
 
 # All the slides, accompanying code and exercises are all stored in this repo!
 
-[Sign Up to DataCamp Here!](https://www.datacamp.com/courses/natural-language-processing-fundamentals-in-python)
+[Sign Up to DataCamp Here!](https://www.datacamp.com)
 
 ## List of Courses
 
