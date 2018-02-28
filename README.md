@@ -31,8 +31,8 @@
   
   ### Bonus
   
-  - [Natural Language Processing Fundamentals in Python](https://github.com/AmoDinho/datacamp-python-data-science-track/tree/master/Correlation%20and%20Regression)
-  - [Correlation & Regression](https://github.com/AmoDinho/datacamp-python-data-science-track/tree/master/Natural%20Language%20Processing%20Fundamentals%20in%20Python)
+  - [Natural Language Processing Fundamentals in Python](https://github.com/AmoDinho/datacamp-python-data-science-track/tree/master/Natural%20Language%20Processing%20Fundamentals%20in%20Python)
+  - [Correlation & Regression](https://github.com/AmoDinho/datacamp-python-data-science-track/tree/master/Correlation%20and%20Regression)
   
   
 
