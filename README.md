@@ -3,7 +3,7 @@ All the slides, accompanying code and exercises all stored in this repo.
 
 ## List of Courses
 
-  - [Intro to Python for Data Science](#Intro to Python for Data Science)
+  - Intro to Python for Data Science
   - Intermediate Python for Data Science
   - Python Data Science Toolbox (Part 1)
   - Python Data Science Toolbox (Part 2)
