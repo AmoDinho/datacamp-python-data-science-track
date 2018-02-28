@@ -24,6 +24,10 @@ All the slides, accompanying code and exercises all stored in this repo.
   - Deep Learning in Python
   - Network Analysis in Python (Part 1)
   
+  ### Bonus
+  
+  - Natural Language Processing Fundamentals in Python
+  - Correlation & Regression
   
   
 
