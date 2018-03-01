@@ -1,3 +1,4 @@
+#---------------------------------------------------------------------------------------------------#
 #Your First Numpy Array
 # Create list baseball
 baseball = [180, 215, 210, 210, 188, 176, 209, 200]
@@ -10,6 +11,7 @@ np_baseball = np.array(baseball)
 
 # Print out type of np_baseball
 print(type(np_baseball))
+#---------------------------------------------------------------------------------------------------#
 
 #Baseball players' height
 # height is available as a regular list
@@ -28,6 +30,7 @@ np_height_m = np_height * 0.0254
 
 # Print np_height_m
 print(np_height_m)
+#---------------------------------------------------------------------------------------------------#
 
 #Baseball player's BMI
 # height and weight are available as a regular lists
@@ -46,6 +49,7 @@ bmi = np_weight_kg / np_height_m ** 2
 
 # Print out bmi
 print(bmi)
+#---------------------------------------------------------------------------------------------------#
 
 #Lightweight baseball players
 # height and weight are available as a regular lists
@@ -63,6 +67,7 @@ light = bmi < 21
 
 # Print out light
 print(light)
+#---------------------------------------------------------------------------------------------------#
 
 #Subsetting Numpy Arrays
 # height and weight are available as a regular lists
@@ -79,6 +84,7 @@ print(np_weight[50])
 
 # Print out sub-array of np_height: index 100 up to and including index 110
 print(np_height[100:111])
+#---------------------------------------------------------------------------------------------------#
 
 
 #Your First 2D Numpy Array
@@ -99,6 +105,7 @@ print(type(np_baseball))
 
 # Print out the shape of np_baseball
 print(np_baseball.shape)
+#---------------------------------------------------------------------------------------------------#
 
 #Baseball data in 2D form
 # baseball is available as a regular list of lists
@@ -111,6 +118,7 @@ np_baseball = np.array(baseball)
 
 # Print out the shape of np_baseball
 print(np_baseball.shape)
+#---------------------------------------------------------------------------------------------------#
 
 #Subsetting 2D Numpy Arrays
 # baseball is available as a regular list of lists
@@ -129,6 +137,7 @@ np_weight = np_baseball[:,1]
 
 # Print out height of 124th player
 print(np_baseball[123, 0])
+#---------------------------------------------------------------------------------------------------#
 
 #2D Arithmetic
 # baseball is available as a regular list of lists
@@ -148,6 +157,7 @@ conversion = np.array([0.0254, 0.453592, 1])
 
 # Print out product of np_baseball and conversion
 print(np_baseball * conversion)
+#---------------------------------------------------------------------------------------------------#
 
 #Average versus median
 # np_baseball is available
@@ -163,6 +173,7 @@ print(np.mean(np_height))
 
 # Print out the median of np_height
 print(np.median(np_height))
+#---------------------------------------------------------------------------------------------------#
 
 #Explore the baseball data
 # np_baseball is available
@@ -185,6 +196,7 @@ print("Standard Deviation: " + str(stddev))
 # Print out correlation between first and second column. Replace 'None'
 corr = np.corrcoef(np_baseball[:,0], np_baseball[:,1])
 print("Correlation: " + str(corr))
+#---------------------------------------------------------------------------------------------------#
 
 #Blend it all together
 # heights and positions are available as lists
@@ -208,4 +220,5 @@ print("Median height of goalkeepers: " + str(np.median(gk_heights)))
 # Print out the median height of other players. Replace 'None'
 print("Median height of other players: " + str(np.median(other_heights)))
 
+#---------------------------------------------------------------------------------------------------#
 
