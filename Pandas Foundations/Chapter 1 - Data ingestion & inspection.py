@@ -15,6 +15,7 @@ df_log10 = np.log10(df)
 print(type(np_vals), type(np_vals_log10))
 print(type(df), type(df_log10))
 
+#---------------------------------------------------------------------------------------------------------------#
 #Zip lists to build a DataFrame
 # Zip the 2 lists together into one list of (key,value) tuples: zipped
 zipped = list(zip(list_keys,list_values))
@@ -28,7 +29,7 @@ data = dict(zipped)
 # Build and inspect a DataFrame from the dictionary: df
 df = pd.DataFrame(data)
 print(df)
-
+#---------------------------------------------------------------------------------------------------------------#
 #Labeling your data
 # Build a list of labels: list_labels
 list_labels = ['year', 'artist', 'song', 'chart weeks']
@@ -40,7 +41,7 @@ list_labels = ['year', 'artist', 'song', 'chart weeks']
 
 # Assign the list of labels to the columns attribute: df.columns
 df.columns = list_labels
-
+#---------------------------------------------------------------------------------------------------------------#
 
 #Building DataFrames with broadcasting
 # Make a string with the value 'PA': state
@@ -54,7 +55,7 @@ df = pd.DataFrame(data)
 
 # Print the DataFrame
 print(df)
-
+#---------------------------------------------------------------------------------------------------------------#
 #Reading a flat file
 # Read in the file: df1
 df1 = pd.read_csv('world_population.csv')
@@ -68,7 +69,7 @@ df2 = pd.read_csv('world_population.csv', header=0, names=new_labels)
 # Print both the DataFrames
 print(df1)
 print(df2)
-
+#---------------------------------------------------------------------------------------------------------------#
 #Delimiters, headers, and extensions
 # Read the raw file as-is: df1
 df1 = pd.read_csv(file_messy)
@@ -87,7 +88,7 @@ df2.to_csv(file_clean, index=False)
 
 # Save the cleaned up DataFrame to an Excel file without the index
 df2.to_excel('file_clean.xlsx', index=False)
-
+#---------------------------------------------------------------------------------------------------------------#
 #Plotting series using pandas
 # Create a plot with color='red'
 df.plot(color='red')
@@ -103,7 +104,7 @@ plt.ylabel('Temperature (degrees F)')
 
 # Display the plot
 plt.show()
-
+#---------------------------------------------------------------------------------------------------------------#
 #Plotting DataFrames
 # Plot all columns (default)
 df.plot()
@@ -122,4 +123,4 @@ plt.show()
 column_list2 = ['Temperature (deg F)','Dew Point (deg F)']
 df[column_list2].plot()
 plt.show()
-
+#---------------------------------------------------------------------------------------------------------------#
