@@ -1,3 +1,4 @@
+#------------------------------------------------------------------------------------------------------------#
 # Familiar functions
 # Create variables var1 and var2
 var1 = [1, 2, 3, 4]
@@ -11,6 +12,7 @@ print(len(var1))
 
 # Convert var2 to an integer: out2
 out2 = int(var2)
+#------------------------------------------------------------------------------------------------------------#
 
 # Multiple arguments
 # Create lists first and second
@@ -25,6 +27,7 @@ full_sorted = sorted(full, reverse = True)
 
 # Print out full_sorted
 print(full_sorted)
+#------------------------------------------------------------------------------------------------------------#
 
 #String Methods
 # string to experiment with: room
@@ -39,6 +42,7 @@ print(room_up)
 
 # Print out the number of o's in room
 print(room.count("o"))
+#------------------------------------------------------------------------------------------------------------#
 
 #List Methods
 # Create list areas
@@ -49,6 +53,7 @@ print(areas.index(20.0))
 
 # Print out how often 14.5 appears in areas
 print(areas.count(14.5))
+#------------------------------------------------------------------------------------------------------------#
 
 #List Methods (2)
 # Create list areas
@@ -57,6 +62,8 @@ areas = [11.25, 18.0, 20.0, 10.75, 9.50]
 # Use append twice to add poolhouse and garage size
 areas.append(24.5)
 areas.append(15.45)
+#------------------------------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------------------------------#
 
 # Print out areas
 print(areas)
@@ -66,6 +73,7 @@ areas.reverse()
 
 # Print out areas
 print(areas)
+#------------------------------------------------------------------------------------------------------------#
 
 #Import package
 # Definition of radius
@@ -79,10 +87,12 @@ C = 2 * r * math.pi
 
 # Calculate A
 A = math.pi * r ** 2
+#------------------------------------------------------------------------------------------------------------#
 
 # Build printout
 print("Circumference: " + str(C))
 print("Area: " + str(A))
+#------------------------------------------------------------------------------------------------------------#
 
 #Selective import
 # Definition of radius
@@ -97,4 +107,5 @@ dist = r * radians(12)
 # Print out dist
 print(dist)
 
+#------------------------------------------------------------------------------------------------------------#
 
