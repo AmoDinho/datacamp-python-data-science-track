@@ -1,4 +1,4 @@
-# Data Camp: Data Sciencist with Python
+# Data Camp: Data Sciencist with Python 🎉🤖
 
 ![Design Blocks](https://images.unsplash.com/photo-1518364538800-6bae3c2ea0f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=193d96d744872badcbbf5bdfc7b347f2&auto=format&fit=crop&w=1951&q=80)
 
