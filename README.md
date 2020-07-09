@@ -1,4 +1,6 @@
-# Data Camp: Data Sciencist with Python 🎉🤖
+# Data Camp: Data Scientist with Python 🎉🤖
+
+![GitHub](https://img.shields.io/github/license/AmoDinho/datacamp-python-data-science-track) ![GitHub stars](https://img.shields.io/github/stars/AmoDinho/datacamp-python-data-science-track?style=social)
 
 ![Design Blocks](https://images.unsplash.com/photo-1518364538800-6bae3c2ea0f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=193d96d744872badcbbf5bdfc7b347f2&auto=format&fit=crop&w=1951&q=80)
 
@@ -6,7 +8,7 @@
 
 [Sign Up to DataCamp Here!](https://www.datacamp.com)
 
-## List of Courses
+## 🎮 List of Courses
 
   - [Intro to Python for Data Science](https://github.com/AmoDinho/datacamp-python-data-science-track/tree/master/Intro%20to%20Python%20for%20Data%20Science)
   - [Intermediate Python for Data Science](https://github.com/AmoDinho/datacamp-python-data-science-track/tree/master/Intermediate%20Python%20for%20Data%20Science)
@@ -29,10 +31,16 @@
   - [Deep Learning in Python](https://github.com/AmoDinho/datacamp-python-data-science-track/tree/master/Deep%20Learning%20in%20Python)
   - [Network Analysis in Python (Part 1)](https://github.com/AmoDinho/datacamp-python-data-science-track/tree/master/Network%20Analysis%20in%20Python%20(Part%201))
   
-  ### Bonus
+  ### 💣 Bonus
   
   - [Natural Language Processing Fundamentals in Python](https://github.com/AmoDinho/datacamp-python-data-science-track/tree/master/Natural%20Language%20Processing%20Fundamentals%20in%20Python)
   - [Correlation & Regression](https://github.com/AmoDinho/datacamp-python-data-science-track/tree/master/Correlation%20and%20Regression)
   
+  ##  🍣 Contributions
   
+  Anyone is welcome to contribute please check out the issues!
+  
+  ## 📄 License
+
+[MIT License](https://github.com/AmoDinho/datacamp-python-data-science-track/blob/master/LICENSE)
 
