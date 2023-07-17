@@ -67,6 +67,9 @@ light = bmi < 21
 
 # Print out light
 print(light)
+
+# Print out BMIs of all baseball players whose BMI is below 21
+print(bmi[light])
 #---------------------------------------------------------------------------------------------------#
 
 #Subsetting Numpy Arrays
